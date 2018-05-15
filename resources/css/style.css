@@ -1,6 +1,10 @@
 *{
   text-align:center;
 }
+p{
+  font-family: Helvetica;
+  font-size: 14px;
+}
 #main_header{
   background-image: url("../images/the-flatiron-building.png");
 }
@@ -32,4 +36,22 @@
   font-family: Helvetica;
   font-size: 23px;
   font-weight: bold;
+}
+#footer{
+  background-color: dimgray;
+  display:block;
+}
+#footer ul{
+  list-style-type: none;
+  overflow:hidden;
+  font-size: 11px;
+  font-family: Helvetica;
+  margin: 0;
+  padding: 0;
+}
+#footer li{
+  float:left;
+  color: white;
+  padding:0px 2px;
+  text-align: center;
 }
